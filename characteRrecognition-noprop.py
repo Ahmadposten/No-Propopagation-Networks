@@ -218,11 +218,8 @@ if __name__ == "__main__":
 	network.addConnection(in_hidden)
 	network.addConnection(hidden_out)
 	network.sortModules()
-	print network.params
-	x = network.params 
+ 	x = network.params 
 
-	print "fuck", network.connections
-	targets = []
 
 	for h in labels:
 		j = [0,0,0,0,0,0,0,0,0,0]
